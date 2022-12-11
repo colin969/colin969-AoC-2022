@@ -6,7 +6,7 @@ mod day5;
 mod day6;
 mod day8;
 mod day9;
-
+mod day10;
 fn main() {
     let mut input_text = String::new();
     print!("Enter Day: ");
@@ -26,6 +26,7 @@ fn main() {
                 6 => day6::run::run(),
                 8 => day8::run::run(),
                 9 => day9::run::run(),
+                10 => day10::run::run(),
                 _ => println!("Day {} not implemented", i),
             }
         },
